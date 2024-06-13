@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "Jayesh demo1"
+  annotations:
+    github.com/project-slug: hirveakshata/aws-ec2-template #name of the terraform repo
+    aws-plugin/name: "Jayesh demo1"
+    backstage.io/techdocs-ref: dir:.
+  title: "Jayesh demo1"
+  description: "test1"
+  system: "Backstage"
+  tags: ["aws-ec2"]
+  lniks: 
+    - title: Instance Details
+      url: https://github.com/hirveakshata/aws-ec2-template/actions
+spec:
+  type: Infrastructure service
+  owner: user:guest
+  lifecycle: "Experimental"
